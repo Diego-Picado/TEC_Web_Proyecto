@@ -12,21 +12,21 @@
   - (Opcional) Favicon
 - [x] Estructura de `<body>` bien organizada
 
-### [ ] 2. HTML Semántico (semantic-html.html)
+### [x] 2. HTML Semántico (semantic-html.html)
 El sitio debe utilizar las siguientes etiquetas semánticas:
-- [ ] `<header>` - Cabecera principal con navegación
-- [ ] `<nav>` - Menú de navegación con enlaces a secciones
-- [ ] `<main>` - Contenido principal del sitio
-- [ ] `<section>` - Mínimo 4 secciones diferentes:
+- [x] `<header>` - Cabecera principal con navegación
+- [x] `<nav>` - Menú de navegación con enlaces a secciones
+- [x] `<main>` - Contenido principal del sitio
+- [x] `<section>` - Mínimo 4 secciones diferentes:
   - Sección "Hero" o presentación
   - Sección "Sobre mí"
   - Sección "Habilidades"
   - Sección "Proyectos"
   - Sección "Contacto"
-- [ ] `<article>` - Para cada proyecto individual
-- [ ] `<aside>` - Información complementaria (opcional)
-- [ ] `<footer>` - Pie de página con información de copyright y redes sociales
-- [ ] `<figure>` y `<figcaption>` - Para imágenes con descripciones
+- [x] `<article>` - Para cada proyecto individual
+- [x] `<aside>` - Información complementaria (opcional)
+- [x] `<footer>` - Pie de página con información de copyright y redes sociales
+- [x] `<figure>` y `<figcaption>` - Para imágenes con descripciones
 
 ### [ ] 3. Selectores CSS (css-selectors.html)
 Debe demostrar el uso de diversos selectores, utilizar al menos 2 que no sean tipo, clase o ID:
