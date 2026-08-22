@@ -7,117 +7,125 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
-<body>
+<body class = "body">
     <header> 
         <nav class = "navbar">
-        <ul>
-            <li><a href="#welcome">Welcome</a></li>
-            <li><a href="#presentation">Presentation</a></li>
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li> 
-        </ul>
+                <a href="#welcome" class="navbartext">Welcome</a>
+                <a href="#presentation" class="navbartext">Presentation</a>
+                <a href="#about-me" class="navbartext">About me</a>
+                <a href="#skills" class="navbartext">Skills</a>
+                <a href="#projects" class="navbartext">Projects</a>
+                <a href="#contact" class="navbartext">Contact</a>
         </nav>
     </header>
     <main>
-        <section id="welcome"> 
-            <h3>Welcome</h3>
-            <p>This is my personal portfolio where you can find information about my projects.</p>
+        <section id="welcome" >  
+            <h3 class="titles">Welcome</h3>
+            <p class="welcome-message">To my personal portfolio about projects I have worked on.</p>
         </section>
 
-        <section id="presentation">
-            <h3>Presentation</h3>
-            <p>I am Diego, with over 2 years of experience, I am a junior web developer who is passionate to bring 
-            crazy ideas to life, wether via web or mobile, if it is challenging, 
-            I am in.</p>
-            <figure>
-                <img src = "./images/photo.png" alt = "Main photo">
-                <figcaption>Photo</figcaption>
-            </figure>
+        <section  id="presentation">
+            <div class="presentation-rectangle">
+                <h3 class="titles">Presentation</h3>
+                <p >I am a Junior: Web, Game, App & Senior Technical Team Manager.</p>
+
+                <div id=presentation-buttons>
+                    <button >See my Projects</button>  
+                    <button >Download CV</button>
+                </div>          
+            </div>
+
+            <div class = "figure">
+                    <img src = "./images/photo.jpeg" alt = "Main photo">
+                    <figcaption>Photo</figcaption>              
+            </div>
+
         </section>
 
         <section id="about-me"> 
-            <h3>About me</h3>
+            <h3 class="titles">About me</h3>
             <p>
+                 I am  passionate to bring 
+            crazy ideas to life, wether via web or mobile, if it is challenging, I am in.
                 I have been playing along with different programming languages over time, learning the basics and aplying them on personal projects.
                 I like to go beyond and explore ideas, fail and overcome challenges; being "game development" my weakness, I have been able to explore PyGame, Phaser and Unity, by focusing on how to apply what I learnt and take the most of the experience.
             </p>
+
+            <p>
+                With over 100+ scripts experience, I am always trying to expand my knowledge by
+                 increasing the dificulty level and getting out of the confort zone.
             </p>
+            <p>
                 Due to the wide range of self-taught material available, I have been able to absorb multiple topics.
                 As my current personal focus is on C# to create application and games, I am still expanding my own "universe" of languages.
             </p>
         </section>
 
-        <section id="skills"> 
-            <h3>Skills</h3>
-            <ul>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>Swift</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>C#</li>
-            </ul>
-        </section>
-
-        <section id="projects"> 
-            <article>
-                <h3>Projects</h3>
-                <p>
-                    Note: Since I just decided to move to GitHub a few weeks ago, the list of published projects is short.
-                </p>   
-            </article>
-
-            <article>
-                <h6>HTML/CSS</h6>
+        <section id="skills-flexbox">
+            <section id="skills"> 
+                <h3 class="titles">Skills</h3>
                 <ul>
-                    <li><a href="https://diego-picado.github.io/TEC_Web_Proyecto/" >Diego's Portfolio</a> (HTML/CSS)</li>
+                    <li class="skills-extra" id="Python">Python</li>
+                    <li class="skills-extra" id="SQL">SQL</li>
+                    <li >Swift</li>
+                    <li class="skills-extra" id="HTML-CSS">HTML-CSS</li>
+                    <li class="skills-extra" id="JavaScript">JavaScript</li>
+                    <li class="skills-extra" id="TypeScript-React">TypeScript-React</li>
+                    <li class="skills-extra"id="C">C#</li>
                 </ul>
-            </article>
+            </section>
 
-            <article>
-                <h6>Python</h6>
-                <ul>
-                    <li>Asteroid Shooter via Python</li>
-                    <li>Frogger game via Pygame</li>
-                    <li>Tic-Tac-Toe via Python</li>
-                    <li>Treasure Finder via Python</li>
-                </ul>
-            </article>
+            <section id="projects"> 
+                    <h3 class="titles">Projects</h3>
+      
+                <article class="HTML-CSS">
+                    <h6 class="titles">HTML/CSS</h6>
+                    <ul>
+                        <li>Diego's Portfolio</a> (HTML/CSS)</li>
+                    </ul>
+                </article>
 
-            <article>
-                <h6>JavaScript</h6>
-                <ul>
-                    <li>Flappy Bird via JS</li>
-                </ul>
-            </article>
+                <article class="Python">
+                    <h6 class="titles">Python</h6>
+                    <ul>
+                        <li>Asteroid Shooter via Python</li>
+                        <li>Frogger game via Pygame</li>
+                        <li>Tic-Tac-Toe via Python</li>
+                        <li>Treasure Finder via Python</li>
+                    </ul>
+                </article>
 
-            <article>
-                <h6>SQL</h6>
-                <ul>
-                    <li>Car dealership via MySQL</li>
-                </ul>
-            </article>
+                <article class="JavaScript">
+                    <h6 class="titles">JavaScript</h6>
+                    <ul>
+                        <li>Flappy Bird via JS</li>
+                    </ul>
+                </article>
 
-            <article>
-                <h6>C#</h6>
-                <ul>
-                    <li>Carrot Collector via C#</li>
-                    <li>Ball Dodger via C#</li>
-                    <li>Store Payment Management App via C#</li>
-                </ul>
-            </article>
+                <article class="SQL">
+                    <h6 class="titles">SQL</h6>
+                    <ul>
+                        <li>Car dealership via MySQL</li>
+                    </ul>
+                </article>
 
-            <article>
-                <h6>React</h6>
-                <ul>
-                    <li>Basic Store Listing via React</li>
-                </ul>
-            </article>
+                <article class="C">
+                    <h6 class="titles">C#</h6>
+                    <ul>
+                        <li>Carrot Collector via C#</li>
+                        <li>Ball Dodger via C#</li>
+                        <li>Store Payment Management App via C#</li>
+                    </ul>
+                </article>
+
+                <article class="TypeScript-React">
+                    <h6 class="titles">TypeScript-React</h6>
+                    <ul>
+                        <li>Basic Store Listing via React</li>
+                    </ul>
+                </article>
+
+            </section>
         </section>
         
 

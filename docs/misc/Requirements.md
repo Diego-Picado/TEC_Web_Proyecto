@@ -30,16 +30,17 @@ El sitio debe utilizar las siguientes etiquetas semánticas:
 
 ### [ ] 3. Selectores CSS (css-selectors.html)
 Debe demostrar el uso de diversos selectores, utilizar al menos 2 que no sean tipo, clase o ID:
-- [ ] **Selectores de tipo**: `h1`, `p`, `section`
-- [ ] **Selectores de clase**: `.card`, `.button`, `.container`
-- [ ] **Selectores de ID**: `#hero`, `#about`, `#contact`
-- [ ] **Selectores descendientes**: `nav a`, `.card p`
-- [ ] **Selectores de hijo directo**: `nav > ul > li`
+- [] **Selectores de tipo**: `h1`, `p`, `section`
+- [x] **Selectores de clase**: `.card`, `.button`, `.container`
+- [x] **Selectores de ID**: `#hero`, `#about`, `#contact`
+- [x] **Selectores descendientes**: `nav a`, `.card p`
+- [x] **Selectores de hijo directo**: `nav > ul > li`
 - [ ] **Selectores de hermano adyacente**: `h2 + p`
 - [ ] **Selectores de atributo**: `a[href^="https"]`, `input[type="email"]`
-- [ ] **Pseudo-clases**: `:hover`, `:focus`, `:nth-child()`, `:first-child`, `:last-child`
+- [x] **Pseudo-clases**: `:hover`, `:focus`, `:nth-child()`, `:first-child`, `:last-child`
 - [ ] **Pseudo-elementos**: `::before`, `::after`, `::first-line`
 
+iconos en SVG
 ### [ ] 4. Propiedades CSS (css-properties.html)
 Aplicar una variedad de propiedades CSS:
 

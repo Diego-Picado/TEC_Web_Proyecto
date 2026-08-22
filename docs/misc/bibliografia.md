@@ -1,4 +1,6 @@
 ## Bibliografia:
+### Color Palette:
+- #### [Palette](https://coolors.co/104547-4b5358-727072-af929d-d2d6ef)
 
 ### Favicon:
 - #### [Favicon](https://www-w3schools-com.translate.goog/html/html_favicon.asp?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc)
@@ -25,8 +27,31 @@
 ### Figcaption:
 #### [Figcaption](https://www.w3schools.com/tags/tag_figcaption.asp)
 
-#### []()
+### Figcaption:
+#### [Margin Auto](https://www-w3schools-com.translate.goog/css/css_margin.asp?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc)
 
-#### []()
+#### [Margin Auto2](https://es.learnlayout.com/margin-auto)
 
-#### []()
+### Button:
+#### [Button](https://www.w3schools.com/css/css3_buttons.asp)
+
+### Images
+#### [Image1](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css)
+#### [Image2](https://www.w3schools.com/css/css_rwd_images.asp)
+
+
+### Text orientation
+#### [Text Orientation1](https://www.w3schools.com/cssref/css3_pr_writing-mode.php)
+#### [Text Orientation2](https://www.w3schools.com/cssref/css_pr_text-orientation.php#gsc.tab=0&gsc.q=css%20text%20writting%20mode)
+
+### Pseudo-class Has
+#### [Has1](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:has)
+#### [Has2](https://www.w3schools.com/cssref/sel_has.php)
+
+
+### Tilde
+#### [Tilde1](https://www.youtube.com/watch?v=DmVCmRm0kfU)
+#### [Tilde2](https://www.geeksforgeeks.org/css/what-does-symbol-tilde-denotes-in-css/)
+#### [Tilde3](https://sabastine.hashnode.dev/how-to-use-css-general-sibling-combinator-tilde)
+
+

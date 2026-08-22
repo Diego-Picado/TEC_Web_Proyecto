@@ -1,0 +1,147 @@
+p {
+    color: white;
+    font-size:35px;
+    /*border:solid black;*/
+    padding-bottom: 10px;
+}
+.body{
+    background-color: #727072;
+    margin:0px;
+    text-align: center;
+}
+
+.titles{
+    color:#279ca0;
+    font-size:40px;
+}
+
+.navbar{
+    background-color:#104547;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+    border: solid #104547 1rem; 
+    width: 100%; 
+    height: 100%;  
+}
+
+.navbar a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:35px
+}
+
+.navbartext:hover{
+    color:#279ca0;
+    text-decoration: underline;
+}
+
+#welcome {
+    background-color: #104547;
+    color:white;
+    font-size: 40px;
+    
+    border:dotted; 
+    border-radius: 50%;
+
+    margin: 1% auto;
+    
+    width: 350px;
+    height: 350px;     
+}
+
+.welcome-message{
+    color:white;
+    width:360px;
+    margin: 0%;
+    font-size: 40px;
+}
+
+#presentation{
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+}
+
+.presentation-rectangle{
+    border: dotted 2px white;
+    background-color: #104547;
+    max-width:40%;
+    max-height:auto;
+
+}
+
+#presentation-buttons{
+    color:#104547;
+    font-size: 20px;
+    display:row;
+    justify-content:center;
+    margin-bottom: 9%;
+}
+
+
+.figure img{
+    max-width: 70%;
+    margin: 10%;
+}
+
+
+#about-me{
+    border: dotted 2px white;
+    background-color: #104547;
+    max-width:100%;
+    max-height:600px;
+}
+
+#skills-flexbox{
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+    border: solid 10px black;
+    font-size: 20px;
+}
+
+.skills-extra{
+    text-decoration: underline;
+    
+}
+
+.skills-extra:hover{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.Python,.C,.HTML-CSS,.JavaScript,.SQL,.C,.TypeScript-React,.Swift{
+    position:absolute;
+    opacity: 0%;
+}
+
+
+
+
+
+#skills:has(#Python:hover) ~ #projects>.Python{
+    opacity: 100%;
+}
+
+#skills:has(#JavaScript:hover) ~ #projects>.JavaScript{
+    opacity: 100%;
+}
+
+#skills:has(#SQL:hover) ~ #projects>.SQL{
+    opacity: 100%;
+}
+
+#skills:has(#C:hover) ~ #projects>.C{
+    opacity: 100%;
+}
+
+#skills:has(#HTML-CSS:hover) ~ #projects>.HTML-CSS{
+    opacity: 100%;
+}
+
+#skills:has(#TypeScript-React:hover) ~ #projects>.TypeScript-React{
+    opacity: 100%;
+}
