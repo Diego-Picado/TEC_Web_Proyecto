@@ -55,3 +55,8 @@
 #### [Tilde3](https://sabastine.hashnode.dev/how-to-use-css-general-sibling-combinator-tilde)
 
 
+### Align self
+#### [Align1](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-self)
+#### [Align2](https://www.w3schools.com/cssref/css3_pr_align-self.php)
+
+

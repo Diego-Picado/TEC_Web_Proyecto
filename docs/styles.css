@@ -94,34 +94,113 @@ p {
     max-width:100%;
     max-height:600px;
 }
-
+/*---------------------
+---Seccion de skills---
+-----------------------*/
 #skills-flexbox{
     display: flex;
-    justify-content: space-around;   
-    align-items: center;
-    border: solid 10px black;
+    align-items: flex-start;
+    border: solid 1px black;
     font-size: 20px;
+    width: 100%;
+    min-height: 700px;
+}
+
+#skills,#projects{
+    box-sizing: border-box;
+    padding: 0px 20px 0 20px;
+    text-align: center;
+}
+
+#skills{
+    flex: 1;
+    align-self:center;
+}
+
+#projects{
+    position: relative;
+    flex: 3;
+    min-width: 0;
+}
+
+#skill-titles{
+    margin: 0;
+    
+}
+
+#skills>.titles,#projects>.titles{
+    font-size: 60px;
+    margin: 0;
+}
+
+.skills-extra{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skills-extra{
     text-decoration: underline;
-    
 }
 
 .skills-extra:hover{
     font-weight: bold;
-    font-size: 21px;
-}
-
-.Python,.C,.HTML-CSS,.JavaScript,.SQL,.C,.TypeScript-React,.Swift{
-    position:absolute;
-    opacity: 0%;
 }
 
 
 
 
+/*posicionar los grids de los proyectos*/
+.Python,.C,.HTML-CSS,.JavaScript,.SQL,.TypeScript-React,.Swift{
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
 
+.HTML-CSS,.JavaScript,.SQL,.TypeScript-React,.Swift{
+    margin:10%;
+}
+
+#projects article ul{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.Python > ul, .C>ul{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 2fr));
+    gap: 0px;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Python > ul > li, .C>ul>li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 220px;
+    text-align: center;
+}
+
+.Python >ul>li img, .C>ul>li img{
+    display: block;
+    width: auto;
+    height: 200px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+
+/* inicio seccion condicionales de skills (efecto con opacidad)*/
 #skills:has(#Python:hover) ~ #projects>.Python{
     opacity: 100%;
 }
@@ -144,4 +223,13 @@ p {
 
 #skills:has(#TypeScript-React:hover) ~ #projects>.TypeScript-React{
     opacity: 100%;
+}
+
+#skills:has(#Swift:hover) ~ #projects>.Swift{
+    opacity: 100%;
+}
+/* final seccion condicionales de skills (efecto con opacidad)*/
+
+#skills-without-photo{
+    margin-top: 10%;
 }
