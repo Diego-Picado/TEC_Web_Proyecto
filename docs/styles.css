@@ -308,7 +308,7 @@ p, li {
 }
 
 /* start of section for conditionals of the "skills" (opacity effect)*/
-#skills:has(#Python:hover, #Python:focus,#Python:active) ~ #projects>.Python{
+#skills:has(#Python:hover, #Python:focus,#Python:active,#Python:focus-visible) ~ #projects>.Python{
     opacity: 100%;
 }
 
