@@ -10,12 +10,20 @@
 <body class = "body">
     <header> 
         <nav class = "navbar">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-button" aria-label="Open navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="nav-links">
                 <a href="#welcome" class="navbartext">Welcome</a>
                 <a href="#presentation" class="navbartext">Presentation</a>
                 <a href="#about-me" class="navbartext">About me</a>
                 <a href="#skills" class="navbartext">Skills</a>
                 <a href="#projects" class="navbartext">Projects</a>
                 <a href="#contact" class="navbartext">Contact</a>
+                </div>
         </nav>
     </header>
     <main>
@@ -30,8 +38,8 @@
                 <p >I am a Junior: Web, Game, App & Senior Technical Team Manager.</p>
 
                 <div id=presentation-buttons>
-                    <button >See my Projects</button>  
-                    <button >Download CV</button>
+                    <a href="#projects" class="navbartext"><button id = button>See my Projects</button></a>  
+                    <button id = button>Download CV</button>
                 </div>          
             </div>
 
@@ -48,12 +56,12 @@
                  I am  passionate to bring 
             crazy ideas to life, wether via web or mobile, if it is challenging, I am in.
                 I have been playing along with different programming languages over time, learning the basics and aplying them on personal projects.
-                I like to go beyond and explore ideas, fail and overcome challenges; being "game development" my weakness, I have been able to explore PyGame, Phaser and Unity, by focusing on how to apply what I learnt and take the most of the experience.
+                I like to go beyond and explore ideas, fail and overcome challenges; being "game development" one of the topics i am passionate for, I have been able to explore PyGame, Phaser and Unity, by focusing on how to apply what I learnt and take the most of the experience.
             </p>
 
             <p>
                 With over 100+ scripts experience, I am always trying to expand my knowledge by
-                 increasing the dificulty level and getting out of the confort zone.
+                increasing the dificulty level and getting out of the confort zone.
             </p>
             <p>
                 Due to the wide range of self-taught material available, I have been able to absorb multiple topics.
@@ -72,7 +80,6 @@
                     <span class="skills-extra" id="HTML-CSS">HTML-CSS</span>
                     <span class="skills-extra" id="JavaScript">JavaScript</span>
                     <span class="skills-extra" id="TypeScript-React">TypeScript-React</span>
-                    
                 </div>
             </section>
 
@@ -83,19 +90,19 @@
                     <ul>
                         <li>
                             Asteroid Shooter via Python
-                            <img src = "./images/python/asteroid.png">
+                            <img src = "./images/python/asteroid.png" alt="Asteroid Shooter project">
                         </li>        
                         <li>
                             Frogger game via Pygame
-                            <img src = "./images/python/frogger.png">
+                            <img src = "./images/python/frogger.png" alt="Frogger game project">
                         </li>
                         <li>
                             Tic-Tac-Toe via Python
-                            <img src = "./images/python/tictactoe.png">
+                            <img src = "./images/python/tictactoe.png" alt="Tic-Tac-Toe project">
                         </li>
                         <li>
                             Hang Man via Python
-                            <img src = "./images/python/hangman.png">
+                            <img src = "./images/python/hangman.png" alt="Hang Man project">
                         </li>
                     </ul>
                 </article>
@@ -104,20 +111,20 @@
                     <h6 class="titles" id="skill-titles">C#</h6>
                     <ul>
                         <li>
-                            Carrot Collector via C#
-                            <img src = "./images/c/carrot.png">
+                            Carrot Collector
+                            <img src = "./images/c/carrot.png" alt="Carrot Collector project">
                         </li>
                         <li>
-                            Ball Dodger via C#
-                            <img src = "./images/c/dodger.png">
+                            Ball Dodger
+                            <img src = "./images/c/dodger.png" alt="Ball Dodger project">
                         </li>
                         <li>
-                            Udemy Tanks (self taught) via C#
-                            <img src = "./images/c/tanks.png">
+                            Udemy Tanks
+                            <img src = "./images/c/tanks.png" alt="Udemy Tanks project">
                         </li>
                         <li>
-                            Store Payment Management App via C#
-                            <img src = "./images/c/pulperia.png">
+                            Store Payment Management
+                            <img src = "./images/c/pulperia.png" alt="Store Payment Management project">
                         </li>
                     </ul>
                 </article>
@@ -170,25 +177,28 @@
             </section>
         </section>
         
-
-        <section id="contact"> 
-            <h3>Contact</h3> 
-            <p>
-                Mail:  haganen@hotmail.com 
-            </p>
-            <p>
-                Phone: (506) 6362 9325
-            </p>
-        </section>
-
     </main>
-<footer>
-    <p>
-        &copy; 2026 Diego's Portfolio. All rights reserved.
-    </p>
-    <aside>
+<footer id="contact" class="footer">
+    <div class="footer-column">
+        <h3 class="titles">Diego's Portfolio</h3>
+        <p>&copy; 2026 Diego's Portfolio. All rights reserved.</p>
+    </div>
+
+    <div class="footer-column">
+        <h3 class="titles">Contact</h3>
+        <p>Email: haganen@hotmail.com</p>
+        <p>Phone: (506) 6362 9325</p>
         <a href="https://github.com/yo">GitHub</a>
-    </aside>
+    </div>
+
+    <div class="footer-column">
+        <h3 class="titles">Get in touch</h3>
+        <p>Please send me your email on the form below and I will be in touch with you.</p>
+        <form class="footer-form">
+            <input id="footer-email" name="email" type="email" placeholder="email@domain.com" required>
+            <button class= "submit" id = "button" type="submit">Submit</button>
+        </form>
+    </div>
 </footer>
 </body>
 </html>
