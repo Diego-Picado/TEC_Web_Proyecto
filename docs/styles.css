@@ -549,6 +549,7 @@ Media section to work with screens below and higher than 768px wide
     }
 
     .footer-column{
+        flex: 0 1 auto;  /* to set the section/div on smaller screens to become as big as the container*/
         width: 100%;
     }
 }
