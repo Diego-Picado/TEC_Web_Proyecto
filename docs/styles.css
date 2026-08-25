@@ -235,9 +235,9 @@ p, li {
 
 
 /* hover and click (for mobiles)*/
-.skills-extra:hover,.skills-extra:focus,.skills-swift:hover,.skills-swift:focus{
+.skills-extra:hover,.skills-extra:focus,.skills-extra:active,.skills-swift:hover,.skills-swift:focus,.skills-swift:active{
     font-weight: bold;
-    color: #5a0224;
+    color: #d2d6ef;
     transform: scale(1.1);
 }
 
@@ -308,31 +308,31 @@ p, li {
 }
 
 /* start of section for conditionals of the "skills" (opacity effect)*/
-#skills:has(#Python:hover, #Python:focus) ~ #projects>.Python{
+#skills:has(#Python:hover, #Python:focus,#Python:active) ~ #projects>.Python{
     opacity: 100%;
 }
 
-#skills:has(#JavaScript:hover, #JavaScript:focus) ~ #projects>.JavaScript{
+#skills:has(#JavaScript:hover, #JavaScript:focus,#JavaScript:active) ~ #projects>.JavaScript{
     opacity: 100%;
 }
 
-#skills:has(#SQL:hover, #SQL:focus) ~ #projects>.SQL{
+#skills:has(#SQL:hover, #SQL:focus,#SQL:active) ~ #projects>.SQL{
     opacity: 100%;
 }
 
-#skills:has(#C:hover, #C:focus) ~ #projects>.C{
+#skills:has(#C:hover, #C:focus,#C:active) ~ #projects>.C{
     opacity: 100%;
 }
 
-#skills:has(#HTML-CSS:hover, #HTML-CSS:focus) ~ #projects>.HTML-CSS{
+#skills:has(#HTML-CSS:hover, #HTML-CSS:focus,#HTML-CSS:active) ~ #projects>.HTML-CSS{
     opacity: 100%;
 }
 
-#skills:has(#TypeScript-React:hover, #TypeScript-React:focus) ~ #projects>.TypeScript-React{
+#skills:has(#TypeScript-React:hover, #TypeScript-React:focus,#TypeScript-React:active) ~ #projects>.TypeScript-React{
     opacity: 100%;
 }
 
-#skills:has(#Swift:hover, #Swift:focus) ~ #projects>.Swift{
+#skills:has(#Swift:hover, #Swift:focus,#Swift:active) ~ #projects>.Swift{
     opacity: 100%;
 }
 
