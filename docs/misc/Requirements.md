@@ -28,7 +28,7 @@ El sitio debe utilizar las siguientes etiquetas semánticas:
 - [x] `<footer>` - Pie de página con información de copyright y redes sociales
 - [x] `<figure>` y `<figcaption>` - Para imágenes con descripciones
 
-### [ ] 3. Selectores CSS (css-selectors.html)
+### [x] 3. Selectores CSS (css-selectors.html)
 Debe demostrar el uso de diversos selectores, utilizar al menos 2 que no sean tipo, clase o ID:
 - [x] **Selectores de tipo**: `h1`, `p`, `section`
 - [x] **Selectores de clase**: `.card`, `.button`, `.container`
@@ -44,14 +44,14 @@ iconos en SVG
 ### [x] 4. Propiedades CSS (css-properties.html)
 Aplicar una variedad de propiedades CSS:
 
-#### [ ] Tipografía
+#### [X] Tipografía
 - [x] `font-family` con fallback fonts
 - [x] `font-size`, `font-weight`, `font-style`
 - [x] `line-height` para mejorar legibilidad
 - [x] `text-align`, `text-decoration`, `text-transform`
 - [x] `letter-spacing` o `word-spacing`
 
-#### [] Colores y Fondos
+#### [X] Colores y Fondos
 - [x] `color` en diferentes formatos (hex, rgb, rgba)
 - [x] `background-color`
 - [x] `background-image` con gradientes
@@ -73,7 +73,7 @@ Aplicar una variedad de propiedades CSS:
 ### [ ] 5. Unidades de Medida (measurements.html)
 Utilizar diferentes unidades de medida apropiadamente:
 - [x] **Unidades absolutas**: `px` para bordes y detalles precisos
-- [ ] **Unidades relativas**:
+- [x] **Unidades relativas**:
   - [x] `em` o `rem` para tipografía
   - [x] `%` para anchos y layouts
   - [x] `vh` y `vw` para secciones de altura completa
@@ -100,7 +100,7 @@ Implementar Flexbox en múltiples secciones:
   - Múltiples columnas usando flex
   - Alineación de contenido
 
-#### [ ] Propiedades Flexbox Requeridas:
+#### [x] Propiedades Flexbox Requeridas:
 - [x] `display: flex`
 - [x] `flex-direction` (row, column)
 - [x] `justify-content` (diferentes valores)
@@ -131,7 +131,7 @@ Crear un diseño completamente adaptable:
   - Ajustar navegación
   - Cambiar layout de 1 columna a 2 columnas
   - Aumentar tamaños de fuente
-- [ ] **Desktop** (min-width: 1024px):
+- [x] **Desktop** (min-width: 1024px):
   - Layout de 3 columnas para galería
   - Navegación expandida
   - Espaciado mejorado
@@ -139,7 +139,7 @@ Crear un diseño completamente adaptable:
   - Max-width para contenedor principal
   - Ajustes de tipografía
 
-#### [ ] Técnicas Responsivas
+#### [x] Técnicas Responsivas
 - [x] Imágenes responsivas con `max-width: 100%`
 - [x] Unidades relativas (rem, em, %) en lugar de px fijos
 - [x] Flexbox con `flex-wrap` para adaptabilidad
@@ -163,20 +163,16 @@ Crear un diseño completamente adaptable:
 }
 
 ```
-
-
 ## ✅ Checklist Final Antes de Entregar
-- [ ] HTML validado sin errores
-- [ ] CSS validado sin errores
-- [ ] Probado en Chrome, Firefox, y Safari
-- [ ] Responsivo en móvil, tablet y desktop
-- [ ] Todas las imágenes tienen atributo alt
-- [ ] Navegación funciona correctamente
-- [ ] Enlaces se abren apropiadamente (externos en nueva pestaña)
-- [ ] Formulario tiene validación básica
-- [ ] Código comentado donde es necesario
-- [ ] Sin errores en la consola del navegador
-- [ ] Archivos organizados correctamente
-
-
+- [x] HTML validado sin errores
+- [x] CSS validado sin errores
+- [X] Probado en Chrome, Firefox, y Safari
+- [X] Responsivo en móvil, tablet y desktop
+- [X] Todas las imágenes tienen atributo alt
+- [X] Navegación funciona correctamente
+- [X] Enlaces se abren apropiadamente (externos en nueva pestaña)
+- [X] Formulario tiene validación básica
+- [X] Código comentado donde es necesario
+- [X] Sin errores en la consola del navegador
+- [X] Archivos organizados correctamente
 ---
